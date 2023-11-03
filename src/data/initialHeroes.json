@@ -1,0 +1,27 @@
+{
+    "superman": {
+      "name": "Superman",
+      "imageURL": "https://example.com/superman.jpg",
+      "attributes": {
+        "strength": 100,
+        "speed": 90,
+        "intelligence": 85,
+        "durability": 95,
+        "combat": 80,
+        "power": 90
+      }
+    },
+    "batman": {
+      "name": "Batman",
+      "imageURL": "https://example.com/batman.jpg",
+      "attributes": {
+        "strength": 80,
+        "speed": 70,
+        "intelligence": 100,
+        "durability": 75,
+        "combat": 95,
+        "power": 100
+      }
+    }
+  }
+  

@@ -1,0 +1,77 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: gold;
+  width: 25vw;
+}
+
+.char1 {
+  display: flex;
+  flex-direction: reverse;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent red */
+  border: 2px solid orange;
+  border-right: none;
+
+  &__image {
+    height: 12.5rem;
+    width: 9.5rem;
+    border-radius: 0.25rem;
+    padding: 1rem;
+
+}
+
+  &__name {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+      1px 1px 0 black;
+      margin-left: 2rem;
+  }
+}
+
+.ability {
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  gap: 1rem;
+  
+
+  &__name {
+    border-bottom: 1px solid red;
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+      1px 1px 0 black;
+  }
+
+  // &__strength{
+  //   gap: 1rem;
+  // }
+  // &__speed{
+  //   gap: 1rem; 
+  // }
+  // &__intelligence{
+  //   gap: 1rem;
+  // }
+  // &__durability{
+  //   gap: 1rem;
+  // }
+  // &__combat{
+  //   gap: 1rem;
+  // }
+  // &__power{
+  //   gap: 1rem;
+  // }
+  
+
+}
+
+.char1-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+

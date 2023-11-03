@@ -1,0 +1,101 @@
+.hero2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: blue;
+  width: 25vw;
+}
+.height-weight-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.char2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent red */
+  border: 2px solid orange;
+  border-left: none;
+
+  &__image {
+    height: 12.5rem;
+    width: 9.5rem;
+    border-radius: 0.25rem;
+    padding: 1rem;
+
+}
+
+  &__name {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+      1px 1px 0 black;
+      margin-left: 2rem;
+  }
+}
+
+.ability {
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
+  &__name {
+    border-bottom: 1px solid red;
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+      1px 1px 0 black;
+
+      margin-left: 1rem;
+      margin-right: 1rem;
+      width: 4rem;
+      font-size: 0.8rem;
+      
+      
+  }
+
+  &__strength{
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  &__speed{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  &__intelligence{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  &__durability{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  &__combat{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  &__power{
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+}
+.char2-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.ability1{
+    
+}
